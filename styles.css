@@ -1,0 +1,49 @@
+body {
+  background-color: #141414;
+  min-height: 100vh;
+  perspective: 1000px;
+  overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:600');
+
+div.text {
+  margin-top: 15vh;
+  width: 60vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 125px;
+  position: fixed;
+}
+
+div.trame {
+  margin-left: -15vw;
+  top: -20vh;
+  width: 150vw;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+svg {
+  position: absolute;
+}
+
+div.placeholder {
+  width: 100vw;
+  height: 100vh;
+}
+
+div.sticky {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  position: sticky;
+}
